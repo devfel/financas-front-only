@@ -1,0 +1,20 @@
+/* Global Style */
+:root {
+  --dark-blue: #363f5f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f2f5;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: min(90vw, 800px);
+  margin: auto;
+}
