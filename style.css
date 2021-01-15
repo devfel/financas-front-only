@@ -18,3 +18,12 @@ body {
   width: min(90vw, 800px);
   margin: auto;
 }
+
+/* Titles Style */
+h2 {
+  margin-top: 3.2rem;
+  margin-bottom: 0.8rem;
+  color: var(--dark-blue);
+
+  font-weight: normal;
+}
