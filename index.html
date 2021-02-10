@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dev.finance$</title>
-
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2? family = Poppins: ital, wght @ 0,400; 0,700; 1.100; 1.400; 1.700 & display = swap " rel=" stylesheet " />
+    <title>Dev.finance$</title>
   </head>
-
   <body>
     <header>
       <img src="./assets/logo.svg" alt="Logo dev Finance" />
     </header>
 
-    <main class="container">
+    <main class="conteiner">
       <section id="balance">
         <h2 class="sr-only">Balanço</h2>
         <div class="card">
@@ -61,8 +59,34 @@
       </section>
     </main>
 
-    <footer>
-      <p>dev.finance$</p>
-    </footer>
+    <div class="modal-overlay">
+      <div class="modal">
+        <div id="form">
+          <h2>Nova Transação</h2>
+          <form action="" onsubmit="Form.submit(event)">
+            <div class="input-group">
+              <label class="sr-only" for="description">Descrição</label>
+              <input type="text" name="description" id="description" placeholder="Descrição" />
+            </div>
+            <div class="input-group">
+              <label class="sr-only" for="amount">Valor</label>
+              <input type="number" step="0.01" name="amount" id="amount" placeholder="0,00" />
+              <small class="help">use o sinal - (negativo) para despesas e, (virgula) para casas decimais </small>
+            </div>
+            <div class="input-group">
+              <label class="sr-only" for="date">Data</label>
+              <input type="date" name="date" id="date" placeholder="Data" />
+            </div>
+            <div class="input-group actions">
+              <a href="#" onclick="modal.close()" class="button cancel">Cancelar</a>
+              <button>Salvar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>dev.finance$</footer>
+    <script src="index.js"></script>
   </body>
 </html>
