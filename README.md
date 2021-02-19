@@ -4,6 +4,7 @@
 </p>
 
 <h1 align="center">Control Your Finances </h1>
+<h3 align="center"> 🔗 Test here: https://devfel.github.io/financas-front-only/ </h3>
 
 <div align="center">
 
@@ -39,7 +40,7 @@ In this <b>responsive</b> HTML, CSS and JavaScript application I created a simpl
 
 ## 🕹 Test Here <a name = "live"></a>
 
-Live link not available yet.
+https://devfel.github.io/financas-front-only/
 
 ---
 
