@@ -19,7 +19,7 @@ In this <b>responsive</b> HTML, CSS and JavaScript application I created a simpl
 </p>
 
   <p align="center">
-    <img  width="600px" src="./src/assets/finances-control.gif" alt="Control Your Finances"></a>
+    <img  width="600px" src="./assets/finances-control.gif" alt="Control Your Finances"></a>
   </p>
 
 ---
