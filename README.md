@@ -16,7 +16,7 @@
 ---
 
 <p align="center"> 
-In this <b>responsive</b> HTML, CSS and JavaScript application I created a simple finances control app that can be used by anyone to check their expenses and incomes. All the data is saved within the browser Local Storage and no database is included nor needed.</p>
+In this <b>responsive</b> HTML, CSS and JavaScript application I created a simple finance control app that can be used by anyone to check their expenses and incomes. All the data is saved within the browser Local Storage and no database is included nor needed.</p>
 </p>
 
   <p align="center">
