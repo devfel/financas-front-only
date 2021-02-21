@@ -69,7 +69,7 @@ or download the zip from the green **"Code"** button.
 
 ## 🔁 Dependencies <a name = "dependencies"></a>
 
-No depencies needed. This project was done with Vanilla JS.
+No depencies needed.
 
 ---
 
